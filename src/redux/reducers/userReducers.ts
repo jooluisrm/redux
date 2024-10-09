@@ -1,4 +1,4 @@
-import {createSlice} from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 export const slice = createSlice({
 
@@ -15,7 +15,7 @@ export const slice = createSlice({
             state.age = action.payload;
         }
     }
-    
+
 });
 
 export const { setName, setAge } = slice.actions;
